@@ -12,14 +12,6 @@ body {
   color: var(--main-text-color);
 }
 
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 .list {
   list-style: none;
 }
@@ -42,6 +34,14 @@ h2 {
   letter-spacing: 0.03em;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* --------------------HEADER----------------- */
 .header-logo {
   color: #000000;
@@ -56,6 +56,10 @@ h2 {
 }
 
 .header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
@@ -92,8 +96,6 @@ h2 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--third-text-color);
   background-color: #2196f3;
@@ -152,7 +154,6 @@ h2 {
 }
 
 .team-text {
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -191,6 +192,11 @@ h2 {
 /* --------------------PORTFOLIO-------------------- */
 /* filter */
 .filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #212121;
   background-color: #f5f4fa;
   cursor: pointer;
@@ -212,7 +218,6 @@ h2 {
 }
 
 .projects-text {
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
